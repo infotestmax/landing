@@ -1,0 +1,20 @@
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  color:yellow;
+  background-color: darkgreen;
+}
+
+i {
+  color: rgb(0, 50, 50);
+  transition: .5s;
+}
+
+i:hover {
+  color: rgb(0, 255, 255);
+  font-style: italic;
+}
+
+p i {
+  color: red;
+}

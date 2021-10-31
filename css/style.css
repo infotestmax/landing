@@ -11,10 +11,9 @@
 
 /* Utilities */
 body {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   font-family: Open Sans;
+  height: 100vh;
 }
 
 h1, h2, h3, h4 {

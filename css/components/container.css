@@ -1,23 +1,85 @@
 .container {
-  width: 800px;
   margin: 0 auto;
   text-align: center;
 }
 
 @media (max-width: 750px) {
-  .container {
-    width: 660px;
+  .banner {
+    height: 260px;
+  }
+  .banner a {
+    position: relative;
+    top: 15px;
+  }
+  .btn-apply {
+    padding: 10px 20px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: none;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  h2 {
+    font-size: 130%;
+  }
+  h3 {
+    font-size: 120%;
+  }
+  p {
+    font-size: 100%;
   }
 }
 
 @media (max-width: 650px) {
-  .container {
-    width: 580px;
+  .banner {
+    height: 220px;
+  }
+  .banner a {
+    position: relative;
+    top: 10px;
+  }
+  .btn-apply {
+    padding: 5px 10px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transition: none;
+  }
+  h1 {
+    font-size: 100%;
+  }
+  h2 {
+    font-size: 90%;
+  }
+  h3 {
+    font-size: 80%;
+  }
+  p {
+    font-size: 70%;
   }
 }
 
 @media (max-width: 450px) {
-  .container {
-    width: 380px;
+  .banner {
+    height: 220px;
+  }
+  .banner a {
+    position: relative;
+    top: 5px;
+  }
+  .btn-apply {
+    padding: 3px 5px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transition: none;
+  }
+  p {
+    font-size: 60%;
   }
 }
